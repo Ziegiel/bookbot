@@ -14,7 +14,7 @@ def main():
     
     for item in refactored_char_count:
         if item["char"].isalpha():
-            print(f"'{item['char']}': {item['num']}")
+            print(f"{item['char']}: {item['num']}")
 
 if __name__ == "__main__":
     main()
